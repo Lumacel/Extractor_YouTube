@@ -1,2 +1,21 @@
+# Carpeta de salida
 folder/
+
+# Entorno virtual
 .venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Configuración local
+.env
