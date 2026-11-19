@@ -105,6 +105,7 @@ def descargar(url, modo):
                     "outtmpl": os.path.join(
                         carpeta, "%(title)s.%(ext)s"
                     ),
+                    "merge_output_format": "mkv",
                     "progress_hooks": [progreso],
                     "extractor_args": {
                         "youtube": {
